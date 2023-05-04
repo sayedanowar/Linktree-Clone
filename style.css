@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    list-style: none;
+}
+
+body {
+    background-image: url('img/background.png');
+}
+
+.main_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.second_div {
+    margin: 0px 80px;
+    width: 100%;
+    max-width: 85vw;
+    text-align: center;
+}
+
+.third_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px 25px;
+    width: 100%;
+}
+
+.img_class {
+    height: 125px;
+    width: 125px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.p_class {
+    margin: 15px 0px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(100, 255, 100);
+    padding: 15px;
+    background-color: #000;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.fourth_div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkBtn {
+    padding: 17px;
+    background-color: #FFF;
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin: 7px 0px;
+    max-width: 550px;
+    border-radius: 50px;
+    transition: .5s ease;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.github:hover {
+    background-color: #000;
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.facebook:hover {
+    background-color: #1877F2;
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.instagram:hover {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.twitter:hover {
+    background-color: #00b9fb;
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.whatsapp:hover {
+    background: linear-gradient(180deg, #25D366, #2BB741);
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.telegram:hover {
+    background: linear-gradient(180deg, #2AABEE, #229ED9);
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.email:hover {
+    background: rgb(255, 50, 50);
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.portfolio:hover {
+    background: linear-gradient(145deg, #08AEEA, #2AF598);
+    color: #FFF;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75), 50px 50px 50px -75px;
+}
+
+.github_icon {
+    font-size: 1.5rem;
+    padding-right: 17px;
+}
+
+.fb_icon {
+    font-size: 1.285rem;
+    padding-right: 17px;
+    color: #1877F2;
+    transition: .5s ease;
+}
+
+.facebook:hover .fb_icon {
+    color: #fff;
+}
+
+.ig_icon {
+    color: #d62976;
+    font-size: 1.5rem;
+    padding-right: 17px;
+    transition: .5s ease;
+}
+
+.instagram:hover .ig_icon {
+    color: #FFF;
+}
+
+.tw_icon {
+    color: #00b9fb;
+    font-size: 1.5rem;
+    padding-right: 17px;
+    transition: .5s ease;
+}
+
+.twitter:hover .tw_icon {
+    color: #FFF;
+}
+
+.wp_icon {
+    color: #2BB741;
+    font-size: 1.5rem;
+    padding-right: 17px;
+    transition: .5s ease;
+}
+
+.whatsapp:hover .wp_icon {
+    color: #FFF;
+}
+
+.tg_icon {
+    color: #229ED9;
+    font-size: 1.5rem;
+    padding-right: 17px;
+    transition: .5s ease;
+}
+
+.telegram:hover .tg_icon {
+    color: #FFF;
+}
+
+.email_icon {
+    color: rgb(255, 50, 50);
+    font-size: 1.5rem;
+    padding-right: 17px;
+    transition: .5s ease;
+}
+
+.email:hover .email_icon {
+    color: #FFF;
+}
+
+.link_icon {
+    color: rgb(255, 175, 0);
+    font-size: 1.5rem;
+    padding-right: 17px;
+    transition: .5s ease;
+}
+
+.portfolio:hover .link_icon {
+    color: #FFF;
+}
